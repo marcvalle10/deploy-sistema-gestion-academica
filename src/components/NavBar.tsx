@@ -32,7 +32,7 @@ type UserData = {
 };
 
 const CARGA_ARCHIVOS_URL =
-  process.env.NEXT_PUBLIC_CARGA_ARCHIVOS_URL || "http://192.168.56.1:4000";
+  process.env.NEXT_PUBLIC_CARGA_ARCHIVOS_URL || "http://deploy-carga-archivos-front-production.up.railway.app";
 
 export default function NavBar({ className, azul, dorado }: Props) {
   const pathname = useClientPathname();
