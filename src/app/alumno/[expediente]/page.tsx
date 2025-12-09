@@ -30,7 +30,7 @@ const SkeletonLoader = () => (
 
 const COLORS = ['#00C49F', '#FF8042'];
 
-const ALUMNOS_FRONTEND_URL = process.env.NEXT_PUBLIC_ALUMNOS_URL || 'http://192.168.56.1:3001';
+const ALUMNOS_FRONTEND_URL = process.env.NEXT_PUBLIC_ALUMNOS_URL || 'https://deploy-alumnos-frontend-production.up.railway.app';
 
 // --- Tooltip Personalizado ---
 const CustomTooltip = ({ active, payload, label }: any) => {
